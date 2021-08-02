@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+.sidebar{
+    width: 20%;
+    background: rgba(0,0,0,0.9);
+    height: 100vh;
+    position: fixed;
+    box-shadow: 0  0  10px gold;
+    left: -20%;
+}
+.sidebar.active{
+    left: 0;
+    transition: 0.5s;
+}
+.show.rotateburger{
+    right: -8%;
+    transform: rotateY(360deg);
+}
+.sidebar i{
+    color: gold;
+    position: absolute;
+    right: -17%;
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+    background: rgba(0,0,0,0.9);
+    padding: 15px;
+}
+.sidebar ul{
+    color: white;
+    list-style: none;
+    padding-left: 20px;
+}
+.logo{
+    font-size: 30px;
+}
+.list{
+    width: 75%;
+}
+.list li{
+    margin: 20px 0;
+    border-bottom: 1px solid gold;
+    padding-bottom: 5px;
+}
